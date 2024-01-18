@@ -7,7 +7,15 @@
 </head>
 <body>
     <h1>Welcome to jinja template project</h1>
-    <h2>Flag:{{Flag}}</h2>
+    
     <h2>Name:{{name}}</h2>
+    
+    {% if Flag %}
+       <h2>True Part</h2>
+       <h3>message:True is working</h3>
+    {% else %}
+        <h2>False Part</h2>
+        <h3>message:False is working</h3>
+    {% endif %}
 </body>
 </html>

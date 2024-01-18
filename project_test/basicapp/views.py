@@ -4,4 +4,4 @@ from django.shortcuts import render
 
 
 def index(request):
-    return render(request,'basicapp/index.html',{"name":"Samir","Flag":True})
+    return render(request,'basicapp/index.html',{"name":"Samir","Flag":False})
